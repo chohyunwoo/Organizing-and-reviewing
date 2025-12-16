@@ -21,7 +21,15 @@ public class Rectangle {
      boolean isSquare() {
         return width == height;
     }
-      void Print(){
-        System.out.println();
+      void Printarea(){
+        System.out.println("넓이: " + calculateArea());
+    }
+
+     void Printperimeter() {
+         System.out.println("둘레 길이: " + calculatePerimeter());
+    }
+
+     void Printsquare() {
+         System.out.println("정사각형 여부: " + isSquare());
     }
 }

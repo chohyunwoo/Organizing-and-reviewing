@@ -9,13 +9,16 @@ public class RectangleProceduralMain {
 //        rt.height =8;
 
         int area = rt.calculateArea();
-        System.out.println("넓이: " + area);
+        rt.Printarea();
+//        System.out.println("넓이: " + area);
 
         int perimeter = rt.calculatePerimeter();
-        System.out.println("둘레 길이: " + perimeter);
+        rt.Printperimeter();
+//        System.out.println("둘레 길이: " + perimeter);
 
         boolean square = rt.isSquare();
-        System.out.println("정사각형 여부: " + square);
+        rt.Printsquare();
+        //        System.out.println("정사각형 여부: " + square);
     }
 
 
